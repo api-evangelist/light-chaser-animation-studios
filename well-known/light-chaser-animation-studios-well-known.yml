@@ -1,0 +1,31 @@
+generated: '2026-07-19'
+method: searched
+source: http://www.zhuiguang.com/
+host: http://www.zhuiguang.com
+note: >-
+  Light Chaser Animation Studios publishes no API and no developer surface. The only public host is
+  the studio's bilingual WordPress marketing/recruiting site, which is served over plain HTTP (port
+  443 refuses connections). Every discovery document below was probed live and returned 404 with an
+  HTML body (the WordPress 404 template), so no well-known documents were captured. This is a valid,
+  expected negative result recorded so future enrichment runs do not re-probe blindly. No WellKnown
+  or SecurityTxt pointer is wired into apis.yml because no such document exists.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /llms.txt
+  status: 404
+- path: /robots.txt
+  status: 404
+- path: /sitemap.xml
+  status: 404
+- path: /wp-json/
+  status: 404
+  note: WordPress REST API is not exposed on this installation.

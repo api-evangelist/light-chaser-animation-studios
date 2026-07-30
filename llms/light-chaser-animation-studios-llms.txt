@@ -1,0 +1,39 @@
+# Light Chaser Animation Studios
+
+> Light Chaser Animation Studios (追光动画) is a Chinese computer-animation film studio founded in March 2013 by Gary Wang (王微), founder and former CEO of the video platform Tudou, and headquartered in Beijing. The studio produces original CG animated feature films drawn from Chinese mythology, literature and history. It is a film-production company, not a technology vendor, and publishes no public API.
+
+## APIs
+
+Light Chaser Animation Studios publishes no public API. As of 2026-07-19 there is no developer portal, no API documentation, no API reference, no OpenAPI or AsyncAPI description, no SDKs or client libraries in any public package registry, no CLI, no MCP server, and no webhook or event surface. Probes of the studio's only public host returned 404 for every standard discovery path (`/.well-known/security.txt`, `/.well-known/openid-configuration`, `/.well-known/oauth-authorization-server`, `/.well-known/api-catalog`, `/.well-known/ai-plugin.json`, `/llms.txt`, `/robots.txt`, `/sitemap.xml`, `/wp-json/`).
+
+## Web
+
+- [Official site](http://www.zhuiguang.com/): Bilingual (Chinese/English) WordPress marketing and recruiting site. Served over plain HTTP only — port 443 refuses connections.
+- [About Us](http://www.zhuiguang.com/?page_id=22&lang=en): English studio overview, mission and values.
+- [关于追光](http://www.zhuiguang.com/?page_id=6): Chinese studio overview.
+- [媒体报道 / Media coverage](http://www.zhuiguang.com/?cat=4): Curated press clippings about the studio.
+
+## Films
+
+Feature titles listed in the studio's own site navigation:
+
+- 《小门神》Little Door Gods
+- 《阿唐奇遇》Tea Pets
+- 《猫与桃花源》Cats and Peachtopia
+- 《白蛇：缘起》White Snake
+- 《新神榜：哪吒重生》New Gods: Nezha Reborn
+- 《白蛇2：青蛇劫起》White Snake 2: Green Snake
+- 《新神榜：杨戬》New Gods: Yang Jian
+- 《长安三万里》Chang An
+
+## Artifacts
+
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/light-chaser-animation-studios/refs/heads/main/apis.yml): APIs.json 0.20 profile for this company.
+- [Domain security probe](security/light-chaser-animation-studios-domain-security.yml): Observed TLS/HSTS/DNSSEC/CAA/SPF/DMARC posture.
+- [Well-known probe](well-known/light-chaser-animation-studios-well-known.yml): Discovery-path probe results (all 404).
+
+## Notes
+
+- Recruiting contact published on the site: apply@lightchaseranimation.com. The `lightchaseranimation.com` domain is Google Workspace mail-only — its web root returns 404 and it hosts no site.
+- Chinese ICP filing displayed in the site footer: 京ICP备13051889号.
+- Surfaced in the API Evangelist network as an IDG Capital portfolio company.
