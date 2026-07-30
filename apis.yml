@@ -1,24 +1,65 @@
 aid: light-chaser-animation-studios
 name: Light Chaser Animation Studios
-description: 'Light Chaser Animation Studios is a company surfaced as a portfolio company of idg-capital
-  and added to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'Light Chaser Animation Studios (追光动画) is a Chinese computer-animation film studio founded
+  in March 2013 by Gary Wang (王微), founder and former CEO of the video platform Tudou, and headquartered
+  in Beijing. The studio produces original CG animated feature films for the Chinese domestic market,
+  drawing on Chinese mythology, literature and history. Its released titles include Little Door Gods
+  (小门神), Tea Pets (阿唐奇遇), Cats and Peachtopia (猫与桃花源), White Snake (白蛇：缘起), New Gods: Nezha Reborn
+  (新神榜：哪吒重生), White Snake 2: Green Snake (白蛇2：青蛇劫起), New Gods: Yang Jian (新神榜：杨戬) and Chang An
+  (长安三万里). Light Chaser is a film-production company rather than a technology vendor: its public web
+  presence is a bilingual WordPress marketing and recruiting site at zhuiguang.com, and as of this
+  enrichment pass it publishes no developer portal, API documentation, SDKs, or machine-readable API
+  artifacts of any kind.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: http://www.zhuiguang.com/wp-content/themes/wdboots/images/logo.png
 url: https://raw.githubusercontent.com/api-evangelist/light-chaser-animation-studios/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - idg-capital
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-public-api-surface
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Consumer
+- Animation
+- Film
+- Media
+- Entertainment
+- Studio
+- China
 apis: []
+common:
+- type: Website
+  url: http://www.zhuiguang.com/
+- type: About
+  url: http://www.zhuiguang.com/?page_id=22&lang=en
+- type: Press
+  url: http://www.zhuiguang.com/?cat=4
+- type: DomainSecurity
+  url: security/light-chaser-animation-studios-domain-security.yml
+- type: LLMsTxt
+  url: llms/light-chaser-animation-studios-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
