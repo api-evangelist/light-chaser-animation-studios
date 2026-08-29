@@ -10,6 +10,17 @@ description: 'Light Chaser Animation Studios (追光动画) is a Chinese compute
   presence is a bilingual WordPress marketing and recruiting site at zhuiguang.com, and as of this
   enrichment pass it publishes no developer portal, API documentation, SDKs, or machine-readable API
   artifacts of any kind.'
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
